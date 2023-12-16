@@ -34,7 +34,7 @@ function App() {
 
 
 
-      <div className='rotate-90 w-[100vh] absolute h-full'>
+      <div className='md:rotate-90 w-[100vh] absolute h-full'>
        <Header />
        <Name />
        <Gender />

@@ -79,7 +79,7 @@ if(e.target.value.length >= 8 ) {
 
         id="namei"
         onChange={typing}
-        className="h-[100px] placeholder:text-black hover:outline-none text-3xl bg-red-900 focus:outline-none"
+        className="h-[100px] placeholder:text-black hover:outline-none text-3xl bg-cyan-300 focus:outline-none"
       />) : ( <input
         type="text"
         value={name}
