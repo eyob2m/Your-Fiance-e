@@ -29,7 +29,7 @@ function App() {
   },2000)
   return (
   <>
-{ gggo==5 ? (<Black /> ) : ggo ? ( 
+{ gggo==5 ? document.body.style.backgroundColor = "black" : ggo ? ( 
 
 
 <div>
