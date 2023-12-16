@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url(./components//hair.jpg);
+}
+
+.me {
+
+
+  background: url(./components//f.png);
+  background-size: contain;
+}
