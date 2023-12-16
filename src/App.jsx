@@ -5,31 +5,22 @@ import Fiancee from './components/Fiancee'
 import Name from './components/Name'
 import Footer from './components/Footer'
 import img from './components/8.webp'
-import Black from './components/Black'
 
 function App() {
- let k = 0
- var m = false
   const [ggo,sggo] = useState(true)
-  const [gggo,sgggo] = useState(0)
   const [ggjo,sggjo] = useState(30)
   setInterval(()=>{
       sggo(false)
-  },60000)
+  },6000)
 
-  setTimeout(()=>{
-   sgggo(()=> {
-    return Math.floor(Math.random()*10)
-   })
-     
-  },7000)
 
+  
   setTimeout(()=>{
     sggjo(ggjo-1)
   },2000)
   return (
   <>
-{ gggo==5 ? document.body.style.backgroundColor = "black" : ggo ? ( 
+{ ggo ? ( 
 
 
 <div>
