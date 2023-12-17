@@ -11,10 +11,10 @@ import i from './components/pngwing.com (10).png'
 function App() {
   const [ggo,sggo] = useState(true)
 
-  const [ggjo,sggjo] = useState(15)
+  const [ggjo,sggjo] = useState(8)
   setInterval(()=>{
       sggo(false)
-  },60000)
+  },16000)
 
 
   
@@ -43,7 +43,7 @@ function App() {
        <Name />
        <Gender />
        <Fiancee />
-       <div className="h-full flex flex-col justify-center items-center "> <img className=" long  bg-green-400 w-[200px] h-[300000px]" src={i} alt=""/></div>
+       <div className="h-full flex flex-col justify-center items-center "> <img className=" long  bg-green-400 w-[200px] h-[200000px]" src={i} alt=""/></div>
        <Footer />
        
     </div></div> ) }
