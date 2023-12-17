@@ -5,10 +5,11 @@ export default function Fiancee() {
     const [ggjjo,sggjjo] = useState(true)
     const [ggo,sggo] = useState(false)
     function myf() {
+      alert("I've found the most compatible life partner for you! Just scroll up to the footer, and you'll get it on your way.")
        sggjjo(false)
        setInterval(()=>{
         sggo(true)
-        alert("I've found the most compatible life partner for you! Just scroll up to the footer, and you'll get it on your way.")
+       
     },10000)
     }
   return (
