@@ -75,7 +75,7 @@ if(e.target.value.length >= 8 ) {
      
 
       }
-      <div className=" p-2  bg-blue-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
+      <div className=" p-2 cursor-default  bg-blue-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
     <p className="text-xl">Which Gender Are you attracted to?</p><div className='flex'>
     <div>
 <input  type="radio" name="male" onChange={ch}   id="male" />
