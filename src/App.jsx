@@ -43,7 +43,7 @@ function App() {
        <Name />
        <Gender />
        <Fiancee />
-       <div className="h-full flex flex-col justify-center items-center "> <img className="bg-green-400 w-[200px] h-[300000px]" src={i} alt=""/></div>
+       <div className="h-full flex flex-col justify-center items-center "> <img className=" long  bg-green-400 w-[200px] h-[300000px]" src={i} alt=""/></div>
        <Footer />
        
     </div></div> ) }
