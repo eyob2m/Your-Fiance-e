@@ -29,7 +29,7 @@ function App() {
 <div>
       <div className='flex flex-col justify-center absolute bg-white top-[50%] left-[50%] translate-y-[-50%]  translate-x-[-50%]  items-center'>
          <button className=' hover:opacity-0 mx-5 self-end p-3 bg-transparent'><AiOutlineCloseCircle className=" text-3xl" /></button>
-        <p>Ad will remove in {ggjo} seconds</p>
+        <p>Ad wait {ggjo} seconds</p>
         <img className='h-full' src={img} alt=""/> 
       </div>  </div> ) : (
        
