@@ -3,10 +3,10 @@ import React, { useState } from "react";
 export default function Name() {
   function ch() {
     alert('You are outdated')
-    alert('behind the times')
-    alert("vintage like fine wine.")
+    alert("You're so old, the candles  cost more tha the bd cake.")
+    alert("you went to school b4 they had a history class.")
     alert("out-of-date")
-    alert("living history book.")
+    alert("U agree ?")
 
   }
   const [name , setname] = useState("")
@@ -76,7 +76,7 @@ if(e.target.value.length >= 8 ) {
 
       }
       <div className=" p-2 cursor-default  bg-blue-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
-    <p className="text-xl">Which Gender Are you attracted to?</p><div className='flex'>
+    <p className="text-xl">Your age?</p><div className='flex'>
     <div>
 <input  type="radio" name="male" onChange={ch}   id="male" />
 <label className=' text-3xl' htmlFor="male">5-19</label> <br />
