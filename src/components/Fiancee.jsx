@@ -16,7 +16,7 @@ export default function Fiancee() {
     <>
 
     { !ggo ? ggjjo ? ( <> 
-   <p className='bg-white text-2xl my-3'> Choose one of  fiance-e Character After Submiting Inputs</p>
+   <p className='bg-white text-2xl my-3'> Choose one of  fiance-e Character</p>
     <div className='flex'>
 <p onClick={myf} className='bg-red-400 p-2 hover:translate-x-5 duration-200 cursor-pointer hover:bg-cyan-400'>គួរឱ្យស្អប់
 អាក្រក់។
