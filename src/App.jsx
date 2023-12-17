@@ -35,18 +35,14 @@ function App() {
        
   
 
-
-<div className="">
-
-      <div className=' mx-[25%] md:rotate-180 absolute h-fit '>
+<div>
        <Header />
        <Name />
        <Gender />
        <Fiancee />
-       <div className="h-full flex flex-col justify-center items-center "> <img className=" long  bg-green-400 w-[200px] h-[100000px]" src={i} alt=""/></div>
-       <Footer />
+    <Footer />
        
-    </div></div> ) }
+    </div> ) }
     </>
   )
 

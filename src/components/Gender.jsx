@@ -13,7 +13,7 @@ export default function Gender() {
         sgg(true)
     }
   return (
-    <div className=" p-2  bg-yellow-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
+    <div className=" p-2 cursor-default bg-yellow-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
     <p className="text-xl">Which Gender Are you attracted to?</p><div className='flex'>
     <div>
 <input  type="radio" name="male" onChange={male}   id="male" />

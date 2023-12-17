@@ -5,7 +5,7 @@ export default function Fiancee() {
     const [ggjjo,sggjjo] = useState(true)
     const [ggo,sggo] = useState(false)
     function myf() {
-      alert("I've found the most compatible life partner for you! Just scroll up to the footer, and you'll get it on your way.")
+      alert("I've found the most compatible life partner for you! Just scroll up")
        sggjjo(false)
        setInterval(()=>{
         sggo(true)
@@ -13,7 +13,7 @@ export default function Fiancee() {
     },10000)
     }
   return (
-    <>
+    <div className='my-[200px]'>
 
     { !ggo ? ggjjo ? ( <> 
    <p className='bg-white text-2xl my-3'> Choose one of  fiance-e Character</p>
@@ -37,6 +37,6 @@ export default function Fiancee() {
        
         <p>Official Single</p>
         <img className='h-full' src={p} alt=""/> 
-      </div>  </div>  }  </>
+      </div>  </div>  }  </div>
   )
 }

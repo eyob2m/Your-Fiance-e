@@ -3,9 +3,32 @@
 @tailwind utilities;
 
 body {
-  background: url(https://edge.ua.edu/wp-content/uploads/2015/02/Hair-300x300.jpg);
+  animation: eyo infinite 1s;
   cursor: url(./aa.png),auto;
+  background: url(https://e1.pxfuel.com/desktop-wallpaper/148/638/desktop-wallpaper-the-worlds-ugliest-woman-funny-part-2-1283x887-for-your-mobile-tablet.jpg);
+}
 
+.head {
+  animation: ey 3s infinite;
+
+}
+
+@keyframes eyo {
+  0% {
+    background: url(https://c.files.bbci.co.uk/1836F/production/_86838199_misonsereap.jpg);
+  }
+  80% {
+    background: url(https://qph.cf2.quoracdn.net/main-qimg-cd1ae49d249b2f9c086853fcf1de370d-lq);
+  }
+}
+
+@keyframes ey {
+  0% {
+   transform: rotate(190deg); 
+  }
+  50% {
+    transform: rotate(10deg);
+  }
 }
 
 .me {
