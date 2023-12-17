@@ -14,7 +14,7 @@ function App() {
   const [ggjo,sggjo] = useState(15)
   setInterval(()=>{
       sggo(false)
-  },30000)
+  },60000)
 
 
   
