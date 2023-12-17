@@ -14,7 +14,7 @@ export default function Gender() {
     }
   return (
     <div className=" p-2  bg-yellow-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
-    <p className="text-xl">What is Your Gender ?</p><div className='flex'>
+    <p className="text-xl">Which Gender Are you attracted to?</p><div className='flex'>
     <div>
 <input  type="radio" name="male" onChange={male}   id="male" />
 <label className=' text-3xl' htmlFor="male">{g ? "Male" : "Female"}</label> <br />

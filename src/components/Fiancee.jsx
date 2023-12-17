@@ -8,13 +8,14 @@ export default function Fiancee() {
        sggjjo(false)
        setInterval(()=>{
         sggo(true)
-    },4000)
+        alert("I've found the most compatible life partner for you! Just scroll up to the footer, and you'll get it on your way.")
+    },10000)
     }
   return (
     <>
 
     { !ggo ? ggjjo ? ( <> 
-   <p className='bg-white'> Choose one of  fiance-e Character</p>
+   <p className='bg-white text-2xl my-3'> Choose one of  fiance-e Character After Submiting Inputs</p>
     <div className='flex'>
 <p onClick={myf} className='bg-red-400 p-2 hover:translate-x-5 duration-200 cursor-pointer hover:bg-cyan-400'>គួរឱ្យស្អប់
 អាក្រក់។

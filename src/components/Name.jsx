@@ -1,34 +1,14 @@
 import React, { useState } from "react";
 
 export default function Name() {
-  const alp = {
-    A: "诶",
-    B: "比",
-    C: "西",
-    D: "迪",
-    E: "伊",
-    F: "艾弗",
-    G: "吉",
-    H: "艾尺",
-    I: "艾",
-    J: "杰",
-    K: "开",
-    L: "艾勒",
-    M: "艾马",
-    N: "艾娜",
-    O: "哦",
-    P: "屁",
-    Q: "吉吾",
-    R: "艾儿",
-    S: "艾丝",
-    T: "提",
-    U: "伊吾",
-    V: "维",
-    W: "豆贝尔维",
-    X: "艾克斯",
-    Y: "吾艾",
-    Z: "贼德",
-  };
+  function ch() {
+    alert('You are outdated')
+    alert('behind the times')
+    alert("vintage like fine wine.")
+    alert("out-of-date")
+    alert("living history book.")
+
+  }
   const [name , setname] = useState("")
   const [nam , setnam] = useState(false)
   function typing(e){
@@ -71,8 +51,11 @@ if(e.target.value.length >= 8 ) {
 
   return (
     <div className="flex  flex-col mine w-[100vh]  mx-auto">
-      <p className="text-xl">What is Your Name ?</p>
-     {nam ?  ( <input
+      <p className="text-xl bg-white p-2 my-3">What is Your Name ?</p>
+     {nam ?  ( 
+      
+      
+      <input
         type="text"
         value={""}
       placeholder="BLOBFISH"
@@ -88,7 +71,27 @@ if(e.target.value.length >= 8 ) {
         id="namei"
         onChange={typing}
         className="h-[100px] hover:outline-none text-3xl bg-cyan-300 focus:outline-none"
-      />)}
+      />)
+     
+
+      }
+      <div className=" p-2  bg-blue-300 flex justify-center items-center my-10 flex-col gap-3 mx-auto">
+    <p className="text-xl">Which Gender Are you attracted to?</p><div className='flex'>
+    <div>
+<input  type="radio" name="male" onChange={ch}   id="male" />
+<label className=' text-3xl' htmlFor="male">5-19</label> <br />
+<input type="radio" name="male" id="female" onChange={ch}  />
+<label className=' text-3xl' htmlFor="male">20-93</label>
+  </div>
+  
+</div>
+  </div>
+
+
+
+
+
+
     </div>
   );
 }

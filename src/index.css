@@ -4,6 +4,8 @@
 
 body {
   background: url(./components//hair.jpg);
+cursor:url(./Adane.png), ;
+
 }
 
 .me {
@@ -12,3 +14,10 @@ body {
   background: url(./components//f.png);
   background-size: contain;
 }
+
+::-webkit-scrollbar {
+  background-color: white;
+  color: white;
+  width: 0px;
+}
+
