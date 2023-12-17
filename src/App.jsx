@@ -5,7 +5,7 @@ import Gender from './components/Gender'
 import Fiancee from './components/Fiancee'
 import Name from './components/Name'
 import Footer from './components/Footer'
-const img  ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctygAfaXVGvNNxCzfN6sxfLjo6VwtlZU_7Q&usqp=CAU"
+const img  ="https://travelwithkat.com/wp-content/uploads/2013/05/vada-pav.jpg"
 import i from './components/pngwing.com (10).png'
 
 function App() {
