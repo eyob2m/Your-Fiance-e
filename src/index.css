@@ -4,7 +4,7 @@
 
 body {
   background: url(https://edge.ua.edu/wp-content/uploads/2015/02/Hair-300x300.jpg);
-  cursor: wait;
+  cursor: url(./aa.png),auto;
 
 }
 
