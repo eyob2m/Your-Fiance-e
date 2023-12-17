@@ -5,7 +5,7 @@ import Gender from './components/Gender'
 import Fiancee from './components/Fiancee'
 import Name from './components/Name'
 import Footer from './components/Footer'
-import img from './components/8.webp'
+const img  ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTctygAfaXVGvNNxCzfN6sxfLjo6VwtlZU_7Q&usqp=CAU"
 import i from './components/pngwing.com (10).png'
 
 function App() {
