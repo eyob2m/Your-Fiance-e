@@ -5,8 +5,7 @@ export default function Name() {
     alert('You are outdated')
     alert("You're so old, the candles  cost more tha the bd cake.")
     alert("you went to school b4 they had a history class.")
-    alert("out-of-date")
-    alert("U agree ?")
+ 
 
   }
   const [name , setname] = useState("")
