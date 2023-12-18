@@ -13,6 +13,53 @@ body {
 
 }
 
+.ybel {
+  animation: ybel 5s infinite;
+}
+
+@keyframes ybel {
+  0%{
+top: 30vh;
+left: 11vw;
+  }
+  10% {
+top: 50vh;
+left: 23vw;
+  }
+  20%{
+top: 25vh;
+left: 70vw;
+  }
+  30%{
+top: 70vh;
+left: 40vw;
+  }
+  40%{
+top: 55vh;
+left: 90vw;
+  }
+  50%{
+top: 86vh;
+left: 60vw;
+  }
+  60%{
+top: 60vh;
+left: 10vw;
+  }
+  70%{
+top: 10vh;
+left: 55vw;
+  }
+  80%{
+top: 5vh;
+left: 70vw;
+  }
+  90%{
+top: 40vh;
+left: 20vw;
+  }
+}
+
 @keyframes eyo {
   0% {
     background: url(https://c.files.bbci.co.uk/1836F/production/_86838199_misonsereap.jpg);
